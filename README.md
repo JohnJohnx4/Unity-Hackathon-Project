@@ -19,5 +19,5 @@
 6. Basic UI is up and it tracks player health; however we ran out of time, so ammo was never added.
 
 
-### Playable game found inside the Builds folder.
+### [Most recent build](https://github.com/Lambda-Unity-Hackathon/Unity-Hackathon-Project/tree/master/Lambda-Hackathon-Game/Builds/V4)
 
