@@ -16,3 +16,6 @@
 4. Only were able to get the Assault Rifle and Flamethrower done in time.
 5. You can set the trees and zombies on fire with your flamethrower.
 
+
+### Playable game found inside the Builds folder.
+
