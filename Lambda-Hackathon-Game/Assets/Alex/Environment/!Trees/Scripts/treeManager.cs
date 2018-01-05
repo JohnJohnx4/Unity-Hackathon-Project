@@ -9,9 +9,6 @@ public class treeManager : MonoBehaviour
     private GameObject[] trees;
 
     [SerializeField]
-    private GameObject treeCollider;
-
-    [SerializeField]
     private GameObject fireSound;
 
 
@@ -25,9 +22,8 @@ public class treeManager : MonoBehaviour
     {
         
         whichTree = Random.Range(0, trees.Length);
-        Debug.Log(whichTree);
+        //Debug.Log(whichTree);
         trees[whichTree].SetActive(true);
-        treeCollider.SetActive(true);
         treeAlive = true;
     }
 
@@ -38,7 +34,7 @@ public class treeManager : MonoBehaviour
             treeFire[whichTree].SetActive(true);
             fireSound.SetActive(true);
             StartCoroutine(WaitAndRegrow());
-            Debug.Log("On fire");
+            //Debug.Log("On fire");
         }
     }
 
@@ -47,22 +43,16 @@ public class treeManager : MonoBehaviour
 
     private IEnumerator WaitAndRegrow()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(20);
-            trees[whichTree].SetActive(false);
-            treeFire[whichTree].SetActive(false);
-            fireSound.SetActive(false);
-            treeCollider.SetActive(false);
-            treeAlive = false;
-            yield return new WaitForSeconds(60);
-            whichTree = Random.Range(0, trees.Length);
-            Debug.Log(whichTree);
-            trees[whichTree].SetActive(true);
-            treeCollider.SetActive(true);
-            treeAlive = true;
-        }
-
+        yield return new WaitForSeconds(20);
+        trees[whichTree].SetActive(false);
+        treeFire[whichTree].SetActive(false);
+        fireSound.SetActive(false);
+        treeAlive = false;
+        yield return new WaitForSeconds(60);
+        whichTree = Random.Range(0, trees.Length);
+        //Debug.Log(whichTree);
+        trees[whichTree].SetActive(true);
+        treeAlive = true;
     }
 }
 //when collided with flame
@@ -72,5 +62,5 @@ public class treeManager : MonoBehaviour
 //disapear
 //grow back after 60 seconds
 
-    //explode when shoot several times
+    //explode when shot several times
     //explode when bomb goes off nearby
