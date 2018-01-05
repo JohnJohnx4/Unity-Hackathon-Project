@@ -7,7 +7,6 @@ public class flameThrower : MonoBehaviour {
     [SerializeField]
     private GameObject flames;
 	
-
 	void Update () {
         if (Input.GetMouseButtonDown(0))
             flames.SetActive(true);
