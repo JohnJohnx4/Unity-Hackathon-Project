@@ -13,7 +13,7 @@
 1. Player Controller works great except Alex broke the jump mechanism right before build time.
 2. Lots of bad guys.. 
 3. Island, city and a few destructable trees.
-4. Only were able to get the Assault Rifle and Flamethrower done in time.
+4. We were only able to get the Assault Rifle and Flamethrower done in time.
 5. You can set the trees and zombies on fire with your flamethrower.
 
 
