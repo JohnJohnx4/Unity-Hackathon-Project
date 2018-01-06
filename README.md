@@ -1,3 +1,14 @@
+We won!!
+Category                         | Winner |
+| -------------------------------- | ------ |
+| Best Overall - Student Vote      | [Unity Game - Zombie Killers](https://github.com/Lambda-Unity-Hackathon/Unity-Hackathon-Project) |
+| Staff Pick                       | [MUD Game](https://github.com/LS-Avengers/ls-avengers) |
+| Most Likely To Become a Start-up | [The Gemini build - Cryptocurrency](https://github.com/Gemini-Hackathon) |
+| Best Front End                   | [Trumpodoro](https://github.com/trumpodoro/trumpodoro) |
+| Best Back End                    | [Lambda CLI](https://github.com/LSDECLI/LS-Hackathon-CLI-Project) |
+| Runner Up                        | [\<Snake/>](https://github.com/React-Snake/React-Snake) |
+
+
 # Unity-Hackathon-Project
 
 ## 1st Person Endless Shooter
