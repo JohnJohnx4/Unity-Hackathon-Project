@@ -32,5 +32,5 @@ Category                         | Winner |
 6. Basic UI is up and it tracks player health; however we ran out of time, so ammo was never added.
 
 
-### [Most recent build](http://alexcassell.com/V4.zip)
+### [Most recent build download](https://goo.gl/bQQyh9)
 
